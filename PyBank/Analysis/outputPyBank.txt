@@ -1,0 +1,8 @@
+
+_________________________________
+Bank Financial Analysis
+Total_Profit: $38382578
+Total_Months: $86
+Average_Profit_Change: $-2315
+Greatest_Profit_Increase: Jan-2012, $1926159
+Greatest_Profit_Decrease: Aug-2013, $-2196167
