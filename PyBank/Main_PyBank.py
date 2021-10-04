@@ -81,11 +81,11 @@ with open(r"C:\Git\ClassWork_HomeWork\python-challenge\PyBank\Resources\budget_d
     print("Greatest Profits Increase Occured on:" + str(max_profit_date) + "," +   "($" + (profit_maximum) + ")")
     print("Greatest profit decrease Occured on:" + str(min_profit_date + "," + "($" + profit_minimum +")" ))
 #Create path for output text file and write new found data
-    with open(r"C:\Git\ClassWork_HomeWork\python-challenge\PyBank\Analysis\outputPyBank.txt", "w") as file:
-        file.write(f"\n_________________________________")
-        file.write(f"\nBank Financial Analysis")
-        file.write(f"\nTotal_Profit: ${sum(profit_losses)}")
-        file.write(f"\nTotal_Months: ${(total_months)}")
-        file.write(f"\nAverage_Profit_Change: ${average_profit_change}")
-        file.write(f"\nGreatest_Profit_Increase: " + str(max_profit_date) + ", " + "$" + str(profit_maximum))
-        file.write(f"\nGreatest_Profit_Decrease: " + str(min_profit_date) + ", " + "$" + str(profit_minimum))
+with open(r"C:\Git\ClassWork_HomeWork\python-challenge\PyBank\Analysis\outputPyBank.txt", "w") as file:
+    file.write(f"\n_________________________________")
+    file.write(f"\nBank Financial Analysis")
+    file.write(f"\nTotal_Profit: ${sum(profit_losses)}")
+    file.write(f"\nTotal_Months: ${(total_months)}")
+    file.write(f"\nAverage_Profit_Change: ${average_profit_change}")
+    file.write(f"\nGreatest_Profit_Increase: " + str(max_profit_date) + ", " + "$" + str(profit_maximum))
+    file.write(f"\nGreatest_Profit_Decrease: " + str(min_profit_date) + ", " + "$" + str(profit_minimum))
